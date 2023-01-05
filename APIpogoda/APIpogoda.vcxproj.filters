@@ -56,5 +56,272 @@
     <ClInclude Include="NotFound.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\accept_encoding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\async.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\auth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\bearer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\body.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\callback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\cert_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\connect_timeout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\cookies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\cpr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\cprtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\cprver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\curlholder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\curl_container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\http_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\interceptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\limit_rate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\local_port.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\local_port_range.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\low_speed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\multipart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\parameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\payload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\proxies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\proxyauth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\range.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\redirect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\reserve_size.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\response.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\session.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\ssl_ctx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\ssl_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\status_codes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\threadpool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\timeout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\unix_socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\user_agent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\cpr_x64-windows\include\cpr\verbose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\adl_serializer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\byte_container_with_subtype.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\abi_macros.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\conversions\from_json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\conversions\to_chars.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\conversions\to_json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\exceptions.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\hash.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\input\binary_reader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\input\input_adapters.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\input\json_sax.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\input\lexer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\input\parser.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\input\position_t.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\iterators\internal_iterator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\iterators\iteration_proxy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\iterators\iterator_traits.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\iterators\iter_impl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\iterators\json_reverse_iterator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\iterators\primitive_iterator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\json_pointer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\json_ref.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\macro_scope.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\macro_unscope.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\meta\call_std\begin.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\meta\call_std\end.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\meta\cpp_future.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\meta\detected.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\meta\identity_tag.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\meta\is_sax.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\meta\std_fs.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\meta\type_traits.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\meta\void_t.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\output\binary_writer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\output\output_adapters.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\output\serializer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\string_concat.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\string_escape.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\detail\value_t.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\json_fwd.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\ordered_map.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\thirdparty\hedley\hedley.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Microsoft\vcpkg\packages\nlohmann-json_x64-windows\include\nlohmann\thirdparty\hedley\hedley_undef.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
