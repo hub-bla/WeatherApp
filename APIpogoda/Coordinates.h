@@ -5,6 +5,9 @@
 #include <cpr/cpr.h>
 #include <string>
 #include <nlohmann/json.hpp>
+#include "NotFound.h"
+#include <vector>
+#include <sstream>
 using namespace std;
 using json = nlohmann::json;
 class Coordinates
@@ -14,7 +17,6 @@ private:
 	float longitude;
 	string city;
 public:
-	friend json get_data(string city_name);
 	Coordinates(string u_city);
 	float get_longitude();
 	float get_latitude();

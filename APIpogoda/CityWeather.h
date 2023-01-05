@@ -1,7 +1,7 @@
 #pragma once
 #include <cmath>
 #include <iomanip>
-
+#include <fstream>
 #include "Coordinates.h"
 
 class CityWeather
@@ -9,6 +9,7 @@ class CityWeather
 
 private:
     float temperature_in_celsius;
+    float temperature_in_fahrenheit;
     float latitude;
     float longitude;
     float wind_speed;
@@ -16,8 +17,9 @@ private:
     string weather_condition;
     void get_weather_condition(int condition_code);
 public:
-    CityWeather(Coordinates* cor);
-    friend json get_data(string city_name);
+    friend void to_fahrenheit(CityWeather& weather);
+    CityWeather(Coordinates& cor);
+    ~CityWeather();
     void display_weather();
 };
 

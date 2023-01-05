@@ -4,6 +4,7 @@
 #include <string>
 #include <cmath>
 #include <nlohmann/json.hpp>
+#include "NoConnection.h"
 using namespace std;
 using json = nlohmann::json;
 

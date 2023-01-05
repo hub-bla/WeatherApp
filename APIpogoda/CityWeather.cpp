@@ -1,18 +1,23 @@
 #include "CityWeather.h"
 
 
-CityWeather::CityWeather(Coordinates* cor) {
-	string weather_link = "https://api.open-meteo.com/v1/forecast?latitude=" + to_string(cor->get_latitude()) + "&longitude=" + to_string(cor->get_longitude()) + "&current_weather=true";
-	json weather_data = get_data(weather_link);
-    name_of_city = cor->get_city_name();
-    longitude = cor->get_longitude();
-    latitude = cor->get_latitude();
+CityWeather::CityWeather(Coordinates& cor) {
+    string weather_link = "https://api.open-meteo.com/v1/forecast?latitude=" + to_string(cor.get_latitude()) + "&longitude=" + to_string(cor.get_longitude()) + "&current_weather=true";
+    json weather_data = get_data(weather_link);
+    name_of_city = cor.get_city_name();
+    longitude = cor.get_longitude();
+    latitude = cor.get_latitude();
     temperature_in_celsius = weather_data["current_weather"]["temperature"];
     wind_speed = weather_data["current_weather"]["windspeed"];
-	int condition = weather_data["current_weather"]["weathercode"];
+    int condition = weather_data["current_weather"]["weathercode"];
     get_weather_condition(condition);
 }
 
+CityWeather::~CityWeather() {
+    ofstream File("last_city.txt");
+    File << name_of_city;
+    File.close();
+}
 
 
 void CityWeather::get_weather_condition(int condition_code) {
@@ -31,8 +36,9 @@ void CityWeather::get_weather_condition(int condition_code) {
 void CityWeather::display_weather() {
     cout << "City: " << name_of_city << endl;
     cout << "Temperature (in Celsius): " << temperature_in_celsius << endl;
+    cout << "Temperature (in Fahrenheit): " << temperature_in_fahrenheit << endl;
     cout << "Wind Speed: " << wind_speed << endl;
     cout << "Latitude: " << latitude << endl;
     cout << "Longitude: " << longitude << endl;
-    cout << "Weather Condition: " << weather_condition << endl;
+    cout << "Weather Condition: " << weather_condition << endl << endl;
 }

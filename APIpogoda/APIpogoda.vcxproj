@@ -133,6 +133,7 @@
     <ClCompile Include="Error.cpp" />
     <ClCompile Include="get_data.cpp" />
     <ClCompile Include="NoConnection.cpp" />
+    <ClCompile Include="NotFound.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CityWeather.h" />
@@ -140,6 +141,7 @@
     <ClInclude Include="Error.h" />
     <ClInclude Include="get_data.h" />
     <ClInclude Include="NoConnection.h" />
+    <ClInclude Include="NotFound.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

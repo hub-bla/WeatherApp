@@ -2,38 +2,53 @@
 //
 
 #include <iostream>
-#include <cpr/cpr.h>
 #include <string>
-#include <cmath>
-#include <iomanip>
-#include <nlohmann/json.hpp>
 #include "Error.h"
 #include "CityWeather.h"
 #include "Coordinates.h"
 #include "NoConnection.h"
 using namespace std;
-using json = nlohmann::json;
 
 
+void to_fahrenheit(CityWeather& weather) {
+    weather.temperature_in_fahrenheit = (weather.temperature_in_celsius * 1.8) + 32;
+
+}
 
 
 ostream& operator<<(ostream& os, Error* err) {
-    os << err->show_error_message();
+    os << err->show_error_message() << endl << endl;
     return os;
 }
+
+
+
 int main()
 {
+    ifstream File("last_city.txt");
+    string city_from_file;
+    getline(File, city_from_file);
+    File.close();
     while (true) {
         try {
             string city;
-            cout << "Enter city name: ";
-            cin >> city;
-            Coordinates* corr = new Coordinates(city);
-            CityWeather weather(corr);
+
+            if (city_from_file != "") {
+                city = city_from_file;
+                city_from_file = "";
+            }
+            else {
+                cout << "Enter city name: ";
+                getline(cin, city);
+            }
+            system("CLS");
+            Coordinates corr1 = Coordinates(city);
+            CityWeather weather(corr1);
+            to_fahrenheit(weather);
             weather.display_weather();
         }
         catch (Error* err) {
-
+            cout << err;
         }
     }
 }
