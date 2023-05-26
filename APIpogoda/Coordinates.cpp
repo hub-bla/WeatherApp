@@ -35,10 +35,10 @@ Coordinates::Coordinates(string us_city) {
         city = us_city;
     }
     string full_link = "https://geocoding-api.open-meteo.com/v1/search?name=" + city + "&count=1";
-    json data = get_data(full_link);
+    json data = fetch_data(full_link);
     if (data["results"].is_null()) {
-        Error* wskazniczek = new NotFound(us_city);
-        throw wskazniczek;
+        Error* err_ptr = new NotFound(us_city);
+        throw err_ptr;
     }
     float lati = data["results"][0]["latitude"];
     float longi = data["results"][0]["longitude"];
@@ -50,14 +50,3 @@ Coordinates::Coordinates(string us_city) {
 Coordinates::~Coordinates() {}
 
 
-float Coordinates::get_latitude() {
-    return latitude;
-}
-
-float Coordinates::get_longitude() {
-    return longitude;
-}
-
-string Coordinates::get_city_name() {
-    return city;
-}

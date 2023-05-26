@@ -1,5 +1,5 @@
 #pragma once
-#include "get_data.h"
+#include "fetch_data.h"
 #include <cmath>
 #include <iomanip>
 #include <cpr/cpr.h>
@@ -12,15 +12,11 @@ using namespace std;
 using json = nlohmann::json;
 class Coordinates
 {
-private:
+public:
 	float latitude;
 	float longitude;
 	string city;
-public:
 	Coordinates(string u_city);
-	float get_longitude();
-	float get_latitude();
-	string get_city_name();
 	~Coordinates();
 
 };

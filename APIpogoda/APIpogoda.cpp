@@ -10,10 +10,6 @@
 using namespace std;
 
 
-void to_fahrenheit(CityWeather& weather) {
-    weather.temperature_in_fahrenheit = (weather.temperature_in_celsius * 1.8) + 32;
-
-}
 
 
 ostream& operator<<(ostream& os, Error* err) {
@@ -44,7 +40,6 @@ int main()
             system("CLS");
             Coordinates corr1 = Coordinates(city);
             CityWeather weather(corr1);
-            to_fahrenheit(weather);
             weather.display_weather();
         }
         catch (Error* err) {

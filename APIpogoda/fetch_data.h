@@ -8,4 +8,4 @@
 using namespace std;
 using json = nlohmann::json;
 
-json get_data(string city_name);
+json fetch_data(string city_name);

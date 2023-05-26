@@ -1,6 +1,6 @@
-#include "get_data.h"
+#include "fetch_data.h"
 
-json get_data(string link) {
+json fetch_data(string link) {
 
     cpr::AsyncResponse fr = cpr::GetAsync(cpr::Url{ link });
     fr.wait();

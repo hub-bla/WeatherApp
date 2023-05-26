@@ -24,7 +24,7 @@
     <ClCompile Include="CityWeather.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="get_data.cpp">
+    <ClCompile Include="fetch_data.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Error.cpp">
@@ -44,7 +44,7 @@
     <ClInclude Include="CityWeather.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="get_data.h">
+    <ClInclude Include="fetch_data.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Error.h">
